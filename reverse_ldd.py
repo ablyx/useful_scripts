@@ -1,6 +1,9 @@
 import os
 import sys
 
+# use at your own risk.
+# This is not very well written. I think there is an endless loop in the check skip?
+
 FOLDERS_OF_INTEREST = ["lib","bin", "sbin", "usr"]
 SKIP_FOLDERS = ["/lib/modules", ]
 def is_elf(file_path):
